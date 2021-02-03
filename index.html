@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamehMasri</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <p class="header-paragraph">Grades Tracker</p>
+    </header>
+
+    <main>
+        <div class="form-div">
+            <form id="form">
+                <label for="studentName">Student Name</label><br>
+                <input id="studentName" type="text" name="studentName">
+                <br>
+                <br>
+                <label for="course">Course</label><br>
+                <select id="course">
+                    <option value="arabic">Arabic</option>
+                    <option value="english">English</option>
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="art">Art</option>
+                </select>
+                <br>
+                <br>
+                <input id="submit-botton" type="submit">    
+            </form>
+        </div>
+
+        <div class="table-div">
+            <table id="table"></table>
+        </div>
+
+        <script src="js/app.js"></script>
+    </main>
+    
+</body>
+</html>
